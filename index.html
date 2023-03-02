@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JOHN OTIRO</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-----------Header/navigation-Area----------->
+<header class="header">
+<nav class="navbar">
+<a href="#"  class="nav-logo">JOHN OTIRO</a>
+<ul class="nav-menu">
+<li class="nav-item">
+<a href="#home" class="nav-link">Home</a>
+</li>
+<li class="nav-item">
+<a href="#about" class="nav-link">About</a>
+</li>
+<li class="nav-item">
+<a href="#mywork" class="nav-link">My Work</a>
+</li>
+<li class="nav-item">
+<a href="#contact" class="nav-link">Contact</a>
+</li>
+</ul>
+<div class="hamburger">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
+</nav>
+</header>
+<!-------homepage---->
+<section id="home">
+<div class="home">
+<h2>Hoping to solve upcoming problems like fake news in the internet.</h2>
+<p>I Am a Computer Programmer Majoring in Website Development.</p>
+<button id="btn"><a href="#footer">Reach Me</a></button>
+</div>
+</section>
+
+<!-------About--section----->
+<section id="about" class="sec">
+<h2 class="title">About Me</h2>
+<div class="about">
+<div class="img">
+<img src="about.jfif" alt="john otiro">
+</div>
+<div class="text">
+<p>Hello, am Otiro John Otieno.I'm 19 years old and I love to program.I have five years of experience
+in computer programming majoring in <strong>Website Development and Data science with python</strong>.I have 
+experience with programming languages like Javascript,Pyhton and Php.I am collaborative and also adaptive 
+to any changes in the environment.I do not like pressure in what I do and also I do not like a lot of 
+noice in the room like loud music.I love solving problems in my daily life like improving my daily habits 
+and also I like counceling my friends who have problems and lost hope in life.I love being an entreprenuer 
+and studying how stocks and shares work.For me programming is a gateway for me to be able to solve current 
+problems like unemployment that is quite rapidly increasing in our country and a lot of people usually do not 
+have hopes of living their dream lives.Lastly I like serving clients with what they desire and how they want it 
+to be.Therefore, everything that you need in a given frame of time you can just reach me and I will just do 
+everything as stated.That is a kind of service that I truly offer to my clientele.I have faith to work with 
+those who are capable to take risks and help others in there points of need.
+</p>
+</div>
+</div>
+</section>
+
+<!--My--work----->
+<section id="mywork" class="sec">
+<h2 class="title">What I Have Done</h2>
+<div class="work">
+<div class="card">
+<img src="bb.jfif">
+<h2>TO-DO List</h2>
+<button id="btn"><a href="#">Visit Site</a></button>
+</div>
+
+<div class="card">
+<img src="j.jfif">
+<h2>DISCOVERY</h2>
+<button id="btn"><a href="#">Visit Site</a></button>
+</div>
+
+<div class="card">
+<img src="l.jfif">
+<h2>STOP-WATCH</h2>
+<button id="btn"><a href="#">Visit Site</a></button>
+</div>
+        
+<div class="card">
+<img src="m.jfif">
+<h2>DRAWING PAD</h2>
+<button id="btn"><a href="#">Visit Site</a></button>
+</div>        
+
+<div class="card">
+<img src="d.jfif">
+<h2>ANALOGUE CLOCK</h2>
+<button id="btn"><a href="#">Visit Site</a></button>
+</div>
+
+<div class="card">
+<img src="n.jfif">
+<h2>PASSWORD GENERATOR</h2>
+<button id="btn"><a href="#">Visit Site</a></button>
+</div>
+
+
+</div>
+</section>
+
+<!----Contact--Me----->
+<section id="contact" class="sec">
+<h2 class="title">Reach Me</h2>
+<div class="contact">
+
+<div class="contact-card"> 
+<div class="icon"><i class="fa fa-phone"></i></div>
+<p>0796956137</p>
+</div>
+
+<div class="contact-card"> 
+<div class="icon"><i class="fa fa-envelope"></i></div>
+<p>johnotiro602@gmail.com</p>
+</div>
+
+<div class="contact-card"> 
+<div class="icon"><i class="fa fa-map-marker"></i></div>
+<p>Kenya:Migori/Kisumu</p>
+</div>
+
+</div>
+</section>
+
+<!-----footer----->
+<section id="footer">
+<div class="footer">
+<p id="p">&copy;Copyright 2023</p>
+<p id="last-word">Programmed by OTIRO</p>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+            
+hamburger.addEventListener("click", mobileMenu);
+function mobileMenu() {
+hamburger.classList.toggle("active");
+navMenu.classList.toggle("active");
+}
+const navLink = document.querySelectorAll(".nav-link");
+navLink.addEventListener("click", closeMenu);
+            
+function closeMenu() {
+hamburger.classList.remove("active");
+navMenu.classList.remove("active");
+}
+</script>
+</body>
+</html>
